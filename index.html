@@ -8,7 +8,7 @@
     <body>
         <main>
             <h1>Calc Study Meeting Note</h1>
-            <h2>Topic: <em>HTML Basics</em></h2>
+            <h2>Topic: <i>Power Rule</i></h2>
             <h3>Date: <i>10/3/2021</i></h3>
         </main>
         <hr>
@@ -21,13 +21,14 @@
                     <li><a href="#agenda">Agenda</a></li>
                     <li><a href="#prod">Productivity</a></li>
                     <li><a href="#new">Need to Discuss for the Future</a></li>
+                    <li><a href="#faq">FAQ</a></li>
                 </ol>
                 
             </nav>
         </header>
         <hr>
-        <section>
-            <h4 id="about">About the host:</h4>
+        <section id="about">
+            <h4>About the host:</h4>
 
             <span><img src="picture_of_me.PNG" width="50"></span>
             <span>The man himself... <strong> Ryan </strong></span>
@@ -42,9 +43,8 @@
                 
             </div>
         </section>
-        <hr>
-        <section>
-            <h4 id="attendance">Attendance List</h4>
+        <section id="attendance">
+            <h4>Attendance List</h4>
             <div><input type="checkbox" />Ryan</div>
             <div><input type="checkbox" />Charles</div>
             <div><input type="checkbox" />Bob</div>
@@ -54,19 +54,29 @@
         <section>
             <h4 id="agenda">Agenda:</h4>
             <summary>
-                The purpose of this meet is to group together and study the different aspects of calculus. We will discuss the many different topics that we've been struggling on the most and help each other overcome such struggles before exams.
+                The purpose of this meet is to group together and study the different starting aspects of calculus. We will discuss the many different topics that we've been struggling on the most and help each other overcome such struggles before diving into harder concepts.
             </summary>
         </section>
-        <section>
-            <h4 id="prod">Productivity</h4>
+        <section id="prod">
+            <h4>Productivity</h4>
             <h5>Last Meeting's Material</h5>
             <div>
-                <b>Video:</b>
+                Photos:
+                <br>
+                <img src="lesson_pic.PNG" width="300">
+                <br>
+                <img src="whiteboard.jpg" width="200">
+            </div>
+            <br>
+            <div>
+                Video:
+                <br>
                 <video controls src="math_vid.mp4" width="500"></video>
             </div>
             <br>
             <div>
-                <b>Audio:</b>
+                Audio:
+                <br>
                 <audio controls src="math_aud.mp3"></audio>
             </div>
             <br>
@@ -78,8 +88,8 @@
                 <li>Integration</li>
             </ul>
         </section>
-        <section>
-            <h4 id="new">Need to Discuss for the Future</h4>
+        <section id="new">
+            <h4>Need to Discuss for the Future</h4>
             <ul>
                 <li>Polar Coordination</li>
                 <li>Taylor Series</li>
@@ -87,5 +97,61 @@
                 <li>Double and Triple Integration</li>
             </ul>
         </section>
+        <section id="faq">
+            <h4>FAQ:</h4>
+            <div><strong>Q: Where do you guys usually meet?</strong></div>
+            <div>A: At UCSD in Price Center.</div>
+            <br>
+            <div><strong>Q: What is the power rule?</strong></div>
+            <div>A: See the video of the last meet above :)</div>
+            <br>
+            <form>
+                <fieldset>
+                    <div><strong>Question Submission Form:</strong></div>
+                    <br>
+                    <div>Type any question you have about the meet here:</div>
+                    <br>
+                    <div><textarea>Question here!</textarea></div>
+                    <br>
+                    <span>Name: <input type="text" /></span>
+                    <span> Date: <input type="date"></span>
+                    <br>
+                    <br>
+                    <div>Are you already a part of our meet?</div>
+                    <span><input type="radio" name="helpful" checked/> Yes</span>
+                    <span><input type="radio" name="helpful"/> No</span>
+                    <br>
+                    <br>
+                    <span>If <em>no</em> above, select a reason why:</span>
+                    <input list="no">
+                    <datalist id="no">
+                        <option value="I don't like math."></option>
+                        <option value="Already have a study group"></option>
+                        <option value="I actually do want to join. Add me to the list!"></option>
+                    </datalist>
+                    <br>
+                    <br>
+                    <span>If <em>yes/interested</em>, what would you like to hear more of in our next meet?</span>
+                    <select>
+                        <option value="">Select an option</option>
+                        <option value="rules">Product/Quotient Rule</option>
+                        <option value="diff">Implicit Differentiation</option>
+                        <option value="rate">Rate of Change</option>
+                        <option value="integration">Integration</option>
+                    </select>
+                    <br>
+                    <br>
+                    <div><button onclick="alert('Form Submitted')">Submit</button></div>
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+        <footer>
+            <div><i>Resources used to make this site:</i></div>
+            <ul>
+                <li><cite><a href="https://developer.mozilla.org/en-US/">Mozilla HTML Reference</a></cite></li>
+                <li><cite><a href="https://www.freecodecamp.org/news/html-basics-for-beginners/">HTML Basics</a></cite></li>
+            </ul>
+        </footer>
     </body>
 </html>
