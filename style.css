@@ -2,10 +2,24 @@
 
 h1 {
     background-color: rgb(255, 255, 0);
-    border:medium solid #ffaa00;
+    border: medium solid #ffaa00;
 }
 
 h2 {
     background-color: hsl(100, 100%, 50%);
-    border:medium solid green;
+    border: medium solid green;
+}
+
+/* Three absolute units */
+p {
+    margin: 0.5in;
+    font-size: 12pt;
+    line-height: 20px;
+}
+
+/* Three relative units */
+h4 {
+    font-size: 2ch;
+    line-height: 0.5em;
+    margin-left: 0.5ex;
 }
