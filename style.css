@@ -3,6 +3,7 @@
 h1 {
     background-color: rgb(255, 255, 0);
     border: medium solid #ffaa00;
+    margin:auto /* Auto margin */
 }
 
 h2 {
@@ -12,14 +13,44 @@ h2 {
 
 /* Three absolute units */
 p {
-    margin: 0.5in;
+    margin: 0.25in, 0.25in, 0.25in, 0.5in; /* Short margin */
+    padding: 0.25in, 0.25in, 0.25in, 0.25in; /* Short padding */
     font-size: 12pt;
     line-height: 20px;
+
+    background-color: pink;
+
+    /* Border */
+    border-style:solid;
+    border-color:red;
+    border-width:medium;
+    border-radius: 0.1in;
+
 }
 
 /* Three relative units */
 h4 {
     font-size: 2ch;
     line-height: 0.5em;
-    margin-left: 0.5ex;
+
+    background-color: aqua;
+
+    /* Long margin */
+    margin-left:0.5ex;
+    margin-right:0.5ex;
+    margin-top:5ex;
+    margin-bottom:2.5ex;
+
+    /* Long padding */
+    padding-left:0.5ex;
+    padding-right:0.5ex;
+    padding-top:0.5ex;
+    padding-bottom:0.5ex;
+
+    /* Border */
+    border-style:solid;
+    border-color:blue;
+    border-width:medium;
+    border-radius: 5ex;
+
 }
