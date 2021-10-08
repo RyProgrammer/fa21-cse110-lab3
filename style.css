@@ -1,18 +1,22 @@
 /* Creating colors and backgrounds */
 
 h1 {
+    color:orange; /* Text color */
     background-color: rgb(255, 255, 0);
     border: medium solid #ffaa00;
     margin:auto /* Auto margin */
 }
 
 h2 {
+    color:green; /* Text color */
     background-color: hsl(100, 100%, 50%);
     border: medium solid green;
 }
 
 /* Three absolute units */
 p {
+    color:red; /* Text color */
+    text-decoration: underline; /* Text dec */
     margin: 0.25in, 0.25in, 0.25in, 0.5in; /* Short margin */
     padding: 0.25in, 0.25in, 0.25in, 0.25in; /* Short padding */
     font-size: 12pt;
@@ -30,6 +34,9 @@ p {
 
 /* Three relative units */
 h4 {
+    color:blue; /* Text color */
+    text-align: center; /* Text align */
+    text-decoration: underline; /* Text dec */
     font-size: 2ch;
     line-height: 0.5em;
 
@@ -53,4 +60,8 @@ h4 {
     border-width:medium;
     border-radius: 5ex;
 
+}
+
+fieldset {
+    background-color: pink;
 }
