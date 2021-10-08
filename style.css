@@ -1,1 +1,11 @@
-/* Add a comment */
+/* Creating colors and backgrounds */
+
+h1 {
+    background-color: rgb(255, 255, 0);
+    border:medium solid #ffaa00;
+}
+
+h2 {
+    background-color: hsl(100, 100%, 50%);
+    border:medium solid green;
+}
