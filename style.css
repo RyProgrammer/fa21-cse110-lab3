@@ -160,13 +160,55 @@ button:active {
 /* Responsiveness for desktop */
 @media screen and (max-width: 2160px) {
     body {
-        background-color: lightseagreen;
+        font-size: 12pt;
     }
 }
 
 /* Responsiveness for phones */
 @media screen and (max-width: 768px) {
     body {
-        background-color: lightgreen;
+        font-size:20pt;
     }
+}
+
+/* Global selector */
+* {
+    color:navy;
+}
+
+/* Attribute selector */
+i[class="itemfoot"] {
+    font-size:100pt;
+}
+
+/* Selector List */
+ul, ol {
+    font-size:12pt;
+}
+
+/* Descendant combinator */
+ol li {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Child combinator */
+ul > li {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* General sibling combinator */
+h4 ~ p {
+    text-indent: 0.25in;
+}
+
+/* Adjacent sibling combinator (colored the second "Ryan" for me) */
+h4 + div {
+    color:yellow;
+}
+
+/* Two selector combinator */
+i.itemhead {
+    color:lightyellow;
 }
