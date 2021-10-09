@@ -1,5 +1,4 @@
 /* Creating colors and backgrounds */
-
 h1 {
     color:orange; /* Text color */
     background-color: rgb(255, 255, 0);
@@ -64,4 +63,13 @@ h4 {
 
 fieldset {
     background-color: pink;
+}
+
+/* Display */
+img {
+    display: block;
+}
+
+h3 {
+    display: inline;
 }
