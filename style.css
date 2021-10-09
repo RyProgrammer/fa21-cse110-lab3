@@ -151,8 +151,22 @@ button:active {
 
 .gridright {
     background-color: lightsalmon;
-    
+
     justify-self:left;
     grid-row:2/2;
     grid-column:2/2;
+}
+
+/* Responsiveness for desktop */
+@media screen and (max-width: 2160px) {
+    body {
+        background-color: lightseagreen;
+    }
+}
+
+/* Responsiveness for phones */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
 }
