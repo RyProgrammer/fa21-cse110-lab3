@@ -59,17 +59,40 @@ h4 {
     border-width:medium;
     border-radius: 5ex;
 
+    /* Position */
+    position: relative;
+
 }
 
 fieldset {
     background-color: pink;
+
+    /* Size */
+    max-width: 500px;
+    min-width: 500px;
+
+    /* Position */
+    position: static;
 }
 
 /* Display */
 img {
     display: block;
+    /* Size */
+    width: 500px; 
+    height: 125px;
 }
 
 h3 {
     display: inline;
 }
+
+/* Pseudo-classes */
+h4:hover {
+    background-color: rgb(255, 255, 0);
+}
+
+button:active {
+    background-color:red;
+}
+
